@@ -1,0 +1,470 @@
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "BeeDriver" } },
+{ "pid": 0, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-2" } },
+{ "pid": 0, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 0, "tid": 1, "ts": 1682975978174730, "dur": 634737, "ph": "X", "name": "Build Player", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682975978174984, "dur": 11729, "ph": "X", "name": "WriteBuildProgramData", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682975978186716, "dur": 30614, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682975978217331, "dur": 220354, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682975978437687, "dur": 358699, "ph": "X", "name": "Run Backend", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682975978796388, "dur": 13079, "ph": "X", "name": "Finish", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682975978809760, "dur": 11, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_name", "args": { "name": "netcorerun.dll" } },
+{ "pid": 35942, "tid": -1, "ph": "M", "name": "process_sort_index", "args": { "sort_index": "-1" } },
+{ "pid": 35942, "tid": 1, "ph": "M", "name": "thread_name", "args": { "name": "" } },
+{ "pid": 35942, "tid": 1, "ts": 1682975978316164, "dur": 110227, "ph": "X", "name": "BuildProgram", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682975978317201, "dur": 42356, "ph": "X", "name": "BuildProgramContextConstructor", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682975978410873, "dur": 4366, "ph": "X", "name": "OutputData.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682975978415243, "dur": 11140, "ph": "X", "name": "Backend.Write", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682975978415958, "dur": 10001, "ph": "X", "name": "JsonToString", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682975978430746, "dur": 1330, "ph": "X", "name": "", "args": {} },
+{ "pid": 35942, "tid": 1, "ts": 1682975978429954, "dur": 2148, "ph": "X", "name": "Write chrome-trace events", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682975978809816, "dur": 98, "ph": "X", "name": "buildprogram0.traceevents", "args": {} },
+{ "cat":"", "pid":12345, "tid":0, "ts":0, "ph":"M", "name":"process_name", "args": { "name":"bee_backend" } }
+,{ "pid":12345, "tid":0, "ts":1682975978458566, "dur":506, "ph":"X", "name": "DriverInitData",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978459077, "dur":31, "ph":"X", "name": "Tundra",  "args": { "detail":"RemoveStaleOutputs" }}
+,{ "pid":12345, "tid":0, "ts":1682975978459122, "dur":12, "ph":"X", "name": "Tundra",  "args": { "detail":"PrepareNodes" }}
+,{ "pid":12345, "tid":0, "ts":1682975978459134, "dur":179, "ph":"X", "name": "Tundra",  "args": { "detail":"BuildQueueInit" }}
+,{ "pid":12345, "tid":0, "ts":1682975978459334, "dur":491, "ph":"X", "name": "EnqueueRequestedNodes",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978459825, "dur":1, "ph":"X", "name": "SortWorkingStack",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769278, "dur":94, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769373, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769379, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769380, "dur":6, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769386, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769387, "dur":5, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769392, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769393, "dur":3, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769396, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769397, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769401, "dur":1, "ph":"X", "name": "JoinBuildThread",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769402, "dur":4, "ph":"X", "name": "ThreadStateDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769406, "dur":0, "ph":"X", "name": "SharedResourceDestroy",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769414, "dur":1, "ph":"X", "name": "BuildQueueDestroyTail",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978769423, "dur":697, "ph":"X", "name": "Tundra",  "args": { "detail":"Write AllBuiltNodes" }}
+,{ "pid":12345, "tid":1, "ts":1682975978459639, "dur":191, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978459831, "dur":1677, "ph":"X", "name": "CheckDagSignatures",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978461515, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"WriteText Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682975978461520, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978462086, "dur":182, "ph":"X", "name": "WriteText",  "args": { "detail":"Library/Bee/artifacts/WinPlayerBuildProgram/Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682975978462272, "dur":18, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682975978462292, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978462395, "dur":1336, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/app.info" }}
+,{ "pid":12345, "tid":1, "ts":1682975978463732, "dur":32, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1682975978463767, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978463772, "dur":1075, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.5/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":1, "ts":1682975978464859, "dur":20, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1682975978464881, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978465056, "dur":839, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/2.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":1, "ts":1682975978465916, "dur":22, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1682975978465940, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978465945, "dur":1734, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/config" }}
+,{ "pid":12345, "tid":1, "ts":1682975978467697, "dur":35429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1682975978503130, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978503136, "dur":908, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/UnityCrashHandler64.exe" }}
+,{ "pid":12345, "tid":1, "ts":1682975978504058, "dur":2699, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978506760, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978506781, "dur":58479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityWebRequestWWWModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978565275, "dur":1663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978566941, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978566946, "dur":592, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityWebRequestAssetBundleModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978567554, "dur":1146, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978568703, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978568708, "dur":462, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityConnectModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978569181, "dur":2007, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978571190, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978571195, "dur":368, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UIModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978571574, "dur":2882, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978574459, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978574465, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TilemapModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978574926, "dur":4284, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978579212, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978579218, "dur":9728, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TextCoreTextEngineModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978588961, "dur":1507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978590471, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978590477, "dur":353, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.SubstanceModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978590840, "dur":1786, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978592628, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978592633, "dur":426, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ScreenCaptureModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978593073, "dur":1908, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978594998, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978595004, "dur":3307, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.PerformanceReportingModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978598323, "dur":1497, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978599823, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978599828, "dur":392, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.InputModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978600239, "dur":1949, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978602191, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978602195, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.HotReloadModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978602753, "dur":1318, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978604073, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978604077, "dur":3776, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.DSPGraphModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978607866, "dur":2464, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978610333, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978610338, "dur":519, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ClusterRendererModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978610871, "dur":2078, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978612951, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978612956, "dur":423, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ARModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978613390, "dur":3772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978617165, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978617170, "dur":8716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AccessibilityModule.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978625902, "dur":2061, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978627965, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978627972, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.VisualScripting.Antlr3.Runtime.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978628445, "dur":5783, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978634231, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978634237, "dur":489, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Transactions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978634740, "dur":5663, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978640406, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978640412, "dur":613, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Numerics.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978641039, "dur":5024, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978646066, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978646072, "dur":21597, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.IO.Compression.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978667721, "dur":4238, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978671963, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978671970, "dur":475, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Data.DataSetExtensions.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978672455, "dur":18703, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978691162, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978691170, "dur":545, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.ComponentModel.Composition.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978691727, "dur":6810, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978698540, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978698547, "dur":530, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Mono.Security.dll" }}
+,{ "pid":12345, "tid":1, "ts":1682975978699087, "dur":13, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1682975978699102, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978699116, "dur":555, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Resources/unity_builtin_extra" }}
+,{ "pid":12345, "tid":1, "ts":1682975978699680, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682975978699692, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978699696, "dur":41760, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/sharedassets0.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682975978741485, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682975978741503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":1, "ts":1682975978741508, "dur":3180, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/resources.assets.resS" }}
+,{ "pid":12345, "tid":1, "ts":1682975978744699, "dur":24564, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978459804, "dur":89, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978459893, "dur":1617, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978461515, "dur":1117, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1682975978462634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978462786, "dur":1035, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/mconfig/config.xml" }}
+,{ "pid":12345, "tid":2, "ts":1682975978463836, "dur":26, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682975978463864, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978464137, "dur":1020, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.0/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":2, "ts":1682975978465172, "dur":1287, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1682975978466461, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978466466, "dur":1141, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/2.0/web.config" }}
+,{ "pid":12345, "tid":2, "ts":1682975978467622, "dur":94209, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978561835, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978561865, "dur":3511, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/EmbedRuntime/mono-2.0-bdwgc.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978565413, "dur":2299, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978567715, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978567720, "dur":432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityTestProtocolModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978568163, "dur":1965, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978570131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978570136, "dur":389, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UNETModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978570534, "dur":4418, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978574954, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978574960, "dur":440, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UI.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978575411, "dur":2557, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978577971, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978577976, "dur":386, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TextCoreFontEngineModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978578374, "dur":2522, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978580899, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978580919, "dur":8301, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.SubsystemsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978589234, "dur":2111, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978591348, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978591354, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.SpriteMaskModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978591859, "dur":2015, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978593876, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978593882, "dur":4225, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.PhysicsModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978598121, "dur":1272, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978599395, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978599400, "dur":413, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.LocalizationModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978599826, "dur":2314, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978602143, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978602148, "dur":570, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ImageConversionModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978602731, "dur":1301, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978604035, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978604040, "dur":3769, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.GameCenterModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978607822, "dur":16431, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978624256, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978624261, "dur":2395, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.CoreModule.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978626666, "dur":39046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978665716, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978665723, "dur":2832, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Xml.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978668565, "dur":5063, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978673630, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978673635, "dur":457, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Configuration.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978674102, "dur":6763, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/sc.vegetationspawner.runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978680892, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978680900, "dur":494, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/sc.vegetationspawner.runtime.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978681405, "dur":11727, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978693135, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978693141, "dur":429, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/netstandard.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978693580, "dur":6755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978700337, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978700342, "dur":2350, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Assembly-CSharp.dll" }}
+,{ "pid":12345, "tid":2, "ts":1682975978702704, "dur":12, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682975978702718, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978702722, "dur":989, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/sharedassets0.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682975978703724, "dur":57, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1682975978703783, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978703801, "dur":37660, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/ScriptingAssemblies.json" }}
+,{ "pid":12345, "tid":2, "ts":1682975978741486, "dur":15, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682975978741503, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978741508, "dur":972, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/resources.assets" }}
+,{ "pid":12345, "tid":2, "ts":1682975978742492, "dur":10, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1682975978742504, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":2, "ts":1682975978742508, "dur":1047, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/globalgamemanagers" }}
+,{ "pid":12345, "tid":2, "ts":1682975978743569, "dur":25704, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978459723, "dur":139, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978459862, "dur":1721, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978461584, "dur":1441, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1682975978463027, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978463055, "dur":802, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.5/machine.config" }}
+,{ "pid":12345, "tid":3, "ts":1682975978463870, "dur":1274, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1682975978465146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978465152, "dur":417, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.0/web.config" }}
+,{ "pid":12345, "tid":3, "ts":1682975978465587, "dur":19, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682975978465608, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978465622, "dur":1642, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/2.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":3, "ts":1682975978467277, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1682975978467302, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978467306, "dur":5267, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/browscap.ini" }}
+,{ "pid":12345, "tid":3, "ts":1682975978472596, "dur":92, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978472690, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978472795, "dur":412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.XRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978473217, "dur":56, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978473275, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978473290, "dur":319, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.WindModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978473618, "dur":14865, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978488488, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978488508, "dur":534, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.VRModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978489055, "dur":7328, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978496386, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978496394, "dur":553, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.VirtualTexturingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978496958, "dur":6170, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978503131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978503137, "dur":62073, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.VehiclesModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978565224, "dur":2407, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978567634, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978567639, "dur":454, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityWebRequestAudioModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978568104, "dur":1507, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978569613, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978569617, "dur":447, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityAnalyticsCommonModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978570078, "dur":14803, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978584884, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978584891, "dur":4676, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UIElementsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978589577, "dur":2306, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978591886, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978591891, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.SharedInternalsModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978592268, "dur":2752, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978595023, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978595028, "dur":3359, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.Physics2DModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978598400, "dur":2494, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978600896, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978600901, "dur":364, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.InputLegacyModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978601275, "dur":1698, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978602976, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978602980, "dur":485, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.GIModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978603478, "dur":1712, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978605192, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978605196, "dur":2838, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.CrashReportingModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978608045, "dur":3153, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978611201, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978611205, "dur":341, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ClothModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978611555, "dur":4346, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978615904, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978615909, "dur":455, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AnimationModule.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978616374, "dur":6633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978623026, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978623034, "dur":3293, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.VisualScripting.Flow.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978626339, "dur":6543, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978632885, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978632891, "dur":513, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.TextMeshPro.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978633417, "dur":17648, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978651068, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978651075, "dur":16644, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Runtime.Serialization.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978667734, "dur":19720, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978687458, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978687465, "dur":935, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Core.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978688412, "dur":51883, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978740299, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":3, "ts":1682975978740306, "dur":3496, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/mscorlib.dll" }}
+,{ "pid":12345, "tid":3, "ts":1682975978743813, "dur":25451, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978459775, "dur":114, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978459890, "dur":1647, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978461537, "dur":36, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1682975978461576, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978462833, "dur":1193, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.5/Browsers/Compat.browser" }}
+,{ "pid":12345, "tid":4, "ts":1682975978464040, "dur":1772, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1682975978465814, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978465820, "dur":1650, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.0/machine.config" }}
+,{ "pid":12345, "tid":4, "ts":1682975978467483, "dur":25021, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978492507, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978492655, "dur":635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/EmbedRuntime/MonoPosixHelper.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978493305, "dur":5064, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978498372, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978498379, "dur":66338, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.VideoModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978564730, "dur":1885, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978566618, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978566624, "dur":474, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityWebRequestTextureModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978567110, "dur":1633, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978568745, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978568750, "dur":377, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityCurlModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978569137, "dur":1847, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978570987, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978570992, "dur":412, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UmbraModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978571414, "dur":4660, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978576076, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978576082, "dur":512, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TLSModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978576606, "dur":2822, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978579438, "dur":5, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978579449, "dur":9635, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TerrainPhysicsModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978589103, "dur":1849, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978590955, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978590960, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.StreamingModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978591336, "dur":1940, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978593279, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978593285, "dur":410, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.RuntimeInitializeOnLoadManagerInitializerModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978593709, "dur":2538, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978596249, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978596254, "dur":2044, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ParticleSystemModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978598312, "dur":1934, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978600248, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978600253, "dur":340, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.JSONSerializeModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978600604, "dur":2362, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978602969, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978602974, "dur":459, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.GridModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978603443, "dur":1658, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978605103, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978605107, "dur":2938, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.DirectorModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978608056, "dur":3640, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978611698, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978611703, "dur":345, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AudioModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978612058, "dur":2762, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978614823, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978614829, "dur":432, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AndroidJNIModule.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978615272, "dur":1902, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978617176, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978617181, "dur":8713, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.VisualScripting.State.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978625906, "dur":2429, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978628338, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978628343, "dur":466, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.Timeline.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978628820, "dur":6474, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978635297, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978635304, "dur":495, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.ServiceModel.Internals.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978635809, "dur":6745, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978642571, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978642578, "dur":479, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Net.Http.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978643068, "dur":4755, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978647825, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978647831, "dur":19726, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.EnterpriseServices.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978667567, "dur":33575, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978701144, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978701149, "dur":2762, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Data.dll" }}
+,{ "pid":12345, "tid":4, "ts":1682975978703930, "dur":50, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1682975978703982, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978703986, "dur":37737, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/RuntimeInitializeOnLoads.json" }}
+,{ "pid":12345, "tid":4, "ts":1682975978741734, "dur":11, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1682975978741747, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978741750, "dur":606, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/level0" }}
+,{ "pid":12345, "tid":4, "ts":1682975978742422, "dur":60, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682975978742484, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":4, "ts":1682975978742505, "dur":701, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/globalgamemanagers.assets" }}
+,{ "pid":12345, "tid":4, "ts":1682975978743216, "dur":26059, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682975978459879, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682975978459879, "dur":1673, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682975978461552, "dur":44, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1682975978461599, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682975978462743, "dur":1421, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.5/settings.map" }}
+,{ "pid":12345, "tid":5, "ts":1682975978464177, "dur":23, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1682975978464202, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682975978464207, "dur":1243, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.0/DefaultWsdlHelpGenerator.aspx" }}
+,{ "pid":12345, "tid":5, "ts":1682975978465467, "dur":1046, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1682975978466515, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682975978466520, "dur":1135, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/2.0/machine.config" }}
+,{ "pid":12345, "tid":5, "ts":1682975978467670, "dur":290142, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682975978757815, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":5, "ts":1682975978757821, "dur":11372, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/UnityPlayer.dll" }}
+,{ "pid":12345, "tid":5, "ts":1682975978769209, "dur":1, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"Player" }}
+,{ "pid":12345, "tid":5, "ts":1682975978769212, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978459961, "dur":0, "ph":"X", "name": "FirstLock",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978459961, "dur":1577, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978461538, "dur":1539, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1682975978463079, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978463090, "dur":788, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.5/web.config" }}
+,{ "pid":12345, "tid":6, "ts":1682975978463894, "dur":239, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682975978464136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978464154, "dur":1242, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/4.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682975978465410, "dur":389, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682975978465801, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978465806, "dur":2176, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/MonoBleedingEdge/etc/mono/2.0/settings.map" }}
+,{ "pid":12345, "tid":6, "ts":1682975978467993, "dur":373, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1).exe" }}
+,{ "pid":12345, "tid":6, "ts":1682975978468368, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978468373, "dur":717, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1).exe" }}
+,{ "pid":12345, "tid":6, "ts":1682975978469101, "dur":28, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1682975978469131, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978469246, "dur":27473, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Resources/unity default resources" }}
+,{ "pid":12345, "tid":6, "ts":1682975978496845, "dur":4590, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978501439, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978501444, "dur":63688, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.VFXModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978565144, "dur":1776, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978566923, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978566930, "dur":627, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityWebRequestModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978567571, "dur":1993, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978569567, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978569572, "dur":463, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UnityAnalyticsModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978570049, "dur":2084, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978572136, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978572141, "dur":365, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.UIElementsNativeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978572517, "dur":3620, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978576139, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978576145, "dur":549, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TextRenderingModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978576705, "dur":3968, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978580677, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978580684, "dur":8472, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.TerrainModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978589215, "dur":2147, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978591376, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978591382, "dur":438, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.SpriteShapeModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978591832, "dur":1835, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978593671, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978593676, "dur":3416, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ProfilerModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978597106, "dur":1532, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978598640, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978598646, "dur":391, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.NVIDIAModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978599047, "dur":3072, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978602122, "dur":0, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978602127, "dur":656, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.IMGUIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978602796, "dur":1676, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978604474, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978604479, "dur":3523, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978608016, "dur":2290, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978610310, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978610317, "dur":528, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.ClusterInputModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978610860, "dur":2053, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978612915, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978612935, "dur":436, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AssetBundleModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978613383, "dur":2677, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978616063, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978616068, "dur":441, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/UnityEngine.AIModule.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978616520, "dur":7924, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978624446, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978624450, "dur":2107, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/Unity.VisualScripting.Core.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978626568, "dur":3576, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978630146, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978630152, "dur":450, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Xml.Linq.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978630613, "dur":7515, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978638131, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978638137, "dur":646, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Security.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978638796, "dur":5364, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978644163, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978644169, "dur":384, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.IO.Compression.FileSystem.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978644563, "dur":9245, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978653811, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978653816, "dur":13659, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.Drawing.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978667492, "dur":41077, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978708573, "dur":2, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978708581, "dur":34189, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/Managed/System.dll" }}
+,{ "pid":12345, "tid":6, "ts":1682975978742782, "dur":61, "ph":"X", "name": "CheckInputSignature",  "args": { "detail":"CopyFiles C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1682975978742845, "dur":1, "ph":"X", "name": "StoreTimestampsOfNonGeneratedInputFiles",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":6, "ts":1682975978742849, "dur":716, "ph":"X", "name": "CopyFiles",  "args": { "detail":"C:/Users/Savagebaraka/Desktop/Pixel game jam 2023/My project (1)_Data/boot.config" }}
+,{ "pid":12345, "tid":6, "ts":1682975978743577, "dur":25645, "ph":"X", "name": "WaitingForWork", "cname":"thread_state_sleeping",  "args": { "detail":"" }}
+,{ "pid":12345, "tid":0, "ts":1682975978770905, "dur":1394, "ph":"X", "name": "ProfilerWriteOutput" }
+,{ "pid": 0, "tid": 1, "ts": 1682975978809949, "dur": 450, "ph": "X", "name": "backend_profiler1.traceevents", "args": {} },
+{ "pid": 0, "tid": 1, "ts": 1682975978809750, "dur": 664, "ph": "X", "name": "Write chrome-trace events", "args": {} },
